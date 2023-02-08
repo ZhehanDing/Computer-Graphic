@@ -1,0 +1,19 @@
+   S.mushroom = [
+      {z: -1, r: 0},
+      {z: .1, r: 0.3},
+      {z: .1, r: 0.3},
+      {z: .4, r: 1.5},
+
+      {z: .4, r: .2},
+      {z: .1, r: 0.3},
+      {z: 2, r: .1},
+      {z: 2.75, r: -.005},
+
+
+
+   ];
+
+   S.mushroomMesh = S.createRevolutionMesh(16, 32, S.mushroom);
+
+
+
